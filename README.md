@@ -1,6 +1,6 @@
 # npmtest-node-watch
 
-#### test coverage for  [node-watch (v0.5.2)](https://github.com/yuanchuan/node-watch#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-node-watch.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-watch) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-watch.svg)](https://travis-ci.org/npmtest/node-npmtest-node-watch)
+#### basic test coverage for  [node-watch (v0.5.2)](https://github.com/yuanchuan/node-watch#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-node-watch.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-node-watch) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-node-watch.svg)](https://travis-ci.org/npmtest/node-npmtest-node-watch)
 
 #### A neat fs.watch wrapper
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-node-watch/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-node-watch/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-node-watch/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-node-watch/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-watch/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-watch/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-node-watch/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-node-watch/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-node-watch/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-node-watch/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-node-watch/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-node-watch/build/coverage.html/index.html)
 
@@ -76,7 +76,8 @@
         "test": "mocha"
     },
     "url": "https://github.com/yuanchuan/node-watch",
-    "version": "0.5.2"
+    "version": "0.5.2",
+    "bin": {}
 }
 ```
 
